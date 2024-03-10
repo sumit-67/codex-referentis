@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics - Codex Referentis</title>
+    <script type="text/javascript" src="../mathjax/es5/tex-chtml.js" id="MathJax-script" async></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Mathematics</h1>
+        <div id="table-of-content">
+            <h2>Table of Content</h2>
+            <ul>
+                <li><a href="#mathematical-constants">Mathematical Constants</a></li>
+                <li><a href="#trigonometric-functions">Trigonometric Functions</a></li>
+                <li><a href="#approximations">Approximations</a></li>
+                <li><a href="#derivatives-and-integrals">Derivatives and Integrals</a></li>
+                <li><a href="#expansions">Expansions</a></li>
+            </ul>
+        </div>
+        <div id="mathematical-constants">
+            <div class="top"><a href="#">(Top)</a></div>
+            <h2>Mathematical Constants</h2>
+            <table>
+                <tr>
+                    <th colspan="2">Archimedes' constant</th>
+                </tr>
+                <tr>
+                    <td>\( \pi \)</td>
+                    <td>\( 3.1415926536\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \pi^2 \)</td>
+                    <td>\( 9.8696044011\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{\pi} \)</td>
+                    <td>\( 1.7724538509\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( 1 / \pi \)</td>
+                    <td>\( 0.3183098862\ldots \)</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Euler's constant</th>
+                </tr>
+                <tr>
+                    <td>\( e \)</td>
+                    <td>\( 2.7182818285\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \log_{10}{e} \)</td>
+                    <td>\( 0.4342944819\ldots \)</td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+                <tr><th colspan="2">Logarithm</th></tr>
+                <tr>
+                    <td>\( \ln{10} \)</td>
+                    <td>\( 2.302585093\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \log_{10}{2} \)</td>
+                    <td>\( 0.3010299957\ldots \)</td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+                <tr><th colspan="2">Roots</th></tr>
+                <tr>
+                    <td>\( \sqrt{2} \)</td>
+                    <td>\( 1.4142135624\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{3} \)</td>
+                    <td>\( 1.7320508076\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{5} \)</td>
+                    <td>\( 2.2360679775\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{10} \)</td>
+                    <td>\( 3.1622776602\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt[3]{2} \)</td>
+                    <td>\( 1.2599210499\ldots \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{e} \)</td>
+                    <td>\( 1.6487212707\ldots \)</td>
+                </tr>
+            </table>
+        </div>
+        <div id="trigonometric-functions">
+            <div class="top"><a href="#">(Top)</a></div>
+            <h2>Trigonometric Functions</h2>
+            <ul>
+                <li>\( \sin^2{\theta} + \cos^2{\theta} = 1 \)</li>
+                <li>\( \sin{ \left( - \theta \right) } = -\sin{\theta} \)</li>
+                <li>\( \cos{ \left( - \theta \right) } = \cos{\theta} \)</li>
+                <li>\( \cos{ \left( \alpha \pm \beta \right)} = \cos{\alpha} \cos{\beta} \mp \sin{\alpha} \sin{\beta} \)</li>
+                <li>\( \sin{ \left( \alpha \pm \beta \right)} = \sin{\alpha} \cos{\beta} \pm \cos{\alpha} \sin{\beta} \)</li>
+                <li>\( \tan{ \left( \alpha \pm \beta \right) } = \dfrac{ \tan{\alpha} \pm \tan{\beta} }{1 \mp \tan{\alpha} \tan{\beta}} \)</li>
+                <li>\( \cot{ \left( \alpha \pm \beta \right) } = \dfrac{1 \mp \cot{\alpha} \cot{\beta}}{ \cot{\alpha} \pm \cot{\beta} } \)</li>
+                <li>\( 2 \cos{\alpha} \cos{\beta} = \cos{ \left( \alpha + \beta \right) + \cos{ \left( \alpha - \beta \right)} } \)</li>
+                <li>\( - 2 \sin{\alpha} \sin{\beta} = \cos{ \left( \alpha + \beta \right) - \cos{ \left( \alpha - \beta \right)} } \)</li>
+                <li>\( 2 \sin{\alpha} \cos{\beta} = \sin{ \left( \alpha + \beta \right) + \sin{ \left( \alpha - \beta \right)} } \)</li>
+                <li>\( \sin{2\theta} = 2 \sin{\theta} \cos{\theta} \)</li>
+                <li>\( \cos{2\theta} = \cos^2{\theta} - \sin^2{\theta} \)</li>
+                <li>\( \sin{3\theta} = 3\sin{\theta} - 4\sin^3{\theta} \)</li>
+                <li>\( \cos{3\theta} =4\cos^3{\theta} - 3\cos{\theta} \)</li>
+            </ul>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>\( \mathbf{\theta^\circ}  \)</th>
+                        <th>sine</th>
+                        <th>cosine</th>
+                        <th>tangent</th>
+                        <th>\( \mathbf{\theta} \) rad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>\( 0 \)</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>\( 0 \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 15 \)</td>
+                        <td>\( \dfrac{ \sqrt{6} - \sqrt{2}}{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{6} + \sqrt{2}}{4} \)</td>
+                        <td>\( 2 - \sqrt{3} \)</td>
+                        <td>\( \dfrac{\pi}{2} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 18 \)</td>
+                        <td>\( \dfrac{ \sqrt{5} - 1 }{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{10 + 2\sqrt{5}}}{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{25 + 10\sqrt{5}}}{5} \)</td>
+                        <td>\( \dfrac{\pi}{10} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 22.5 \)</td>
+                        <td>\( \dfrac{\sqrt{2 - \sqrt{2}}}{2} \)</td>
+                        <td>\( \dfrac{\sqrt{2 + \sqrt{2}}}{2} \)</td>
+                        <td>\( \sqrt{2} - 1 \)</td>
+                        <td>\( \dfrac{\pi}{8} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 30 \)</td>
+                        <td>\( \dfrac{1}{2} \)</td>
+                        <td>\( \dfrac{\sqrt{3}}{2} \)</td>
+                        <td>\( \dfrac{1}{\sqrt{3}} \)</td>
+                        <td>\( \dfrac{\pi}{6} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 36 \)</td>
+                        <td>\( \dfrac{ \sqrt{10 - 2\sqrt{5}}}{4} \)</td>
+                        <td>\( \dfrac{\sqrt{5} + 1}{4} \)</td>
+                        <td>\( \dfrac{\sqrt{20 - 8\sqrt{5}}}{2} \)</td>
+                        <td>\( \dfrac{\pi}{5} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 45 \)</td>
+                        <td>\( \dfrac{1}{\sqrt{2}} \)</td>
+                        <td>\( \dfrac{1}{\sqrt{2}} \)</td>
+                        <td>\( 1 \)</td>
+                        <td>\( \dfrac{\pi}{4} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 54 \)</td>
+                        <td>\( \dfrac{\sqrt{5} + 1}{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{10 - 2\sqrt{5}}}{4} \)</td>
+                        <td>\( \dfrac{\sqrt{25 + 10 \sqrt{5}}}{5} \)</td>
+                        <td>\( \dfrac{3\pi}{10} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 60 \)</td>
+                        <td>\( \dfrac{\sqrt{3}}{2} \)</td>
+                        <td>\( \dfrac{1}{2} \)</td>
+                        <td>\( \sqrt{3} \)</td>
+                        <td>\( \dfrac{\pi}{3} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 67.5 \)</td>
+                        <td>\( \dfrac{\sqrt{2 + \sqrt{2}}}{2} \)</td>
+                        <td>\( \dfrac{\sqrt{2 - \sqrt{2}}}{2} \)</td>
+                        <td>\( \sqrt{2} + 1 \)</td>
+                        <td>\( \dfrac{3\pi}{4} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 72 \)</td>
+                        <td>\( \dfrac{ \sqrt{10 + 2\sqrt{5}}}{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{5} - 1 }{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{20 + 8\sqrt{5}}}{5} \)</td>
+                        <td>\( \dfrac{2\pi}{5} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 75 \)</td>
+                        <td>\( \dfrac{ \sqrt{6} + \sqrt{2}}{4} \)</td>
+                        <td>\( \dfrac{ \sqrt{6} - \sqrt{2}}{4} \)</td>
+                        <td>\( 2 + \sqrt{3} \)</td>
+                        <td>\( \dfrac{5\pi}{12} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 90 \)</td>
+                        <td>\( 1 \)</td>
+                        <td>\( 0 \)</td>
+                        <td>not defined</td>
+                        <td>\( \dfrac{\pi}{2} \)</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <th>\( \mathbf{\theta^\circ}  \)</th>
+                    <th>sine</th>
+                    <th>cosine</th>
+                    <th>tangent</th>
+                    <th>\( \mathbf{\theta} \) rad</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>\( 0 \)</td>
+                        <td>\( 0 \)</td>
+                        <td>\( 1 \)</td>
+                        <td>\( 0 \)</td>
+                        <td>\( 0 \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 15 \)</td>
+                        <td>\( 0.2588190451\ldots \)</td>
+                        <td>\( 0.9659258263\ldots \)</td>
+                        <td>\( 0.2679491924\ldots \)</td>
+                        <td>\( \dfrac{\pi}{2} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 18 \)</td>
+                        <td>\( 0.3090169944\ldots \)</td>
+                        <td>\( 0.9510565163\ldots \)</td>
+                        <td>\( 0.3249196962\ldots \)</td>
+                        <td>\( \dfrac{\pi}{10} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 22.5 \)</td>
+                        <td>\( 0.3826834324\ldots \)</td>
+                        <td>\( 0.9238795325\ldots \)</td>
+                        <td>\( 0.4142135624\ldots \)</td>
+                        <td>\( \dfrac{\pi}{8} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 30 \)</td>
+                        <td>\( 0.5\)</td>
+                        <td>\( 0.8660254038\ldots \)</td>
+                        <td>\( 0.5773502692\ldots \)</td>
+                        <td>\( \dfrac{\pi}{6} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 36 \)</td>
+                        <td>\( 0.5877852523\ldots \)</td>
+                        <td>\( 0.8090169944\ldots \)</td>
+                        <td>\( 0.7265425280\ldots \)</td>
+                        <td>\( \dfrac{\pi}{5} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 45 \)</td>
+                        <td>\( 0.7071067812\ldots \)</td>
+                        <td>\( 0.7071067812\ldots \)</td>
+                        <td>\( 1 \)</td>
+                        <td>\( \dfrac{\pi}{4} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 54 \)</td>
+                        <td>\( 0.8090169944\ldots \)</td>
+                        <td>\( 0.5877852523\ldots \)</td>
+                        <td>\( 1.3763819205\ldots \)</td>
+                        <td>\( \dfrac{3\pi}{10} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 60 \)</td>
+                        <td>\( 0.8660254038\ldots \)</td>
+                        <td>\( 0.5\)</td>
+                        <td>\( 1.7320508076\ldots \)</td>
+                        <td>\( \dfrac{\pi}{3} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 67.5 \)</td>
+                        <td>\( 0.9238795325\ldots \)</td>
+                        <td>\( 0.3826834324\ldots \)</td>
+                        <td>\( 2.4142135624\ldots \)</td>
+                        <td>\( \dfrac{3\pi}{4} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 72 \)</td>
+                        <td>\( 0.9510565163\ldots \)</td>
+                        <td>\( 0.3090169944\ldots \)</td>
+                        <td>\( 3.0776835372\ldots \)</td>
+                        <td>\( \dfrac{2\pi}{5} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 75 \)</td>
+                        <td>\( 0.9659258263\ldots \)</td>
+                        <td>\( 0.2588190451\ldots \)</td>
+                        <td>\( 3.7320508076\ldots \)</td>
+                        <td>\( \dfrac{5\pi}{12} \)</td>
+                    </tr>
+                    <tr>
+                        <td>\( 90 \)</td>
+                        <td>\( 1 \)</td>
+                        <td>\( 0 \)</td>
+                        <td>not defined</td>
+                        <td>\( \dfrac{\pi}{2} \)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="approximations">
+            <div class="top"><a href="#">(Top)</a></div>
+            <h2>Approximations</h2>
+            <p>\(0 < \alpha \ll 1 \)</p>
+            <ul>
+                <li>\( \left( 1 \pm \alpha \right) ^ n \approx 1 \pm n \alpha \)</li>
+                <li>\( e^\alpha \approx 1 + \alpha \)</li>
+                <li>\( \ln{\left( 1 + \alpha \right)} \approx \alpha \)</li>
+                <li>\( \sin{ \alpha } \approx \alpha \)</li>
+                <li>\( \cos{ \alpha } \approx 1 - \alpha^2 / 2 \)</li>
+                <li>\( \tan{ \alpha } \approx \alpha \)</li>
+            </ul>
+        </div>
+        <div id="derivatives-and-integrals">
+            <div class="top"><a href="#">(Top)</a></div>
+            <h2>Derivatives and Integrals</h2>
+            <table>
+                <tr>
+                    <td>\( x^n \)</td>
+                    <td>\( n x^{n-1} \)</td>
+                </tr>
+                <tr>
+                    <td>\( e^x \)</td>
+                    <td>\( e^x \)</td>
+                </tr>
+                <tr>
+                    <td>\( a^x \)</td>
+                    <td>\( a^x \ln{a} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \ln{x} \)</td>
+                    <td>\( \dfrac{1}{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sin{x} \)</td>
+                    <td>\( \cos{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \cos{x} \)</td>
+                    <td>\( -\sin{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \tan{x} \)</td>
+                    <td>\( \sec^2{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \cot{x} \)</td>
+                    <td>\( -\csc^2{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sec{x} \)</td>
+                    <td>\( \sec{x}\tan{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \csc{x} \)</td>
+                    <td>\( -\csc{x}\cot{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( uv \)</td>
+                    <td>\( u'v + uv'  \)</td>
+                </tr>
+                <tr>
+                    <td>\( \dfrac{u}{v} \)</td>
+                    <td>\( \dfrac{u'v - uv'}{v^2} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sqrt{u} \)</td>
+                    <td>\( \dfrac{u'}{2\sqrt{u}} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \ln{u} \)</td>
+                    <td>\( \dfrac{u'}{u} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \dfrac{1}{u} \)</td>
+                    <td>\( -\dfrac{u'}{u^2} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sin^{-1}{x} \)</td>
+                    <td>\( \dfrac{1}{\sqrt{1 - x^2}} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \cos^{-1}{x} \)</td>
+                    <td>\( -\dfrac{1}{\sqrt{1 - x^2}} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \tan^{-1}{x} \)</td>
+                    <td>\( \dfrac{1}{1 + x^2} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \cot^{-1}{x} \)</td>
+                    <td>\( -\dfrac{1}{1 + x^2} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sec^{-1}{x} \)</td>
+                    <td>\( \dfrac{1}{|x|\sqrt{x^2 - 1}} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \csc^{-1}{x} \)</td>
+                    <td>\( -\dfrac{1}{|x|\sqrt{x^2 - 1}} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \sinh{x} \)</td>
+                    <td>\( \cosh{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \cosh{x} \)</td>
+                    <td>\( \sinh{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \tanh{x} \)</td>
+                    <td>\( sech^2{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \coth{x} \)</td>
+                    <td>\( -csch^2{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( sech{x} \)</td>
+                    <td>\( -sech{x}\tanh{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( csch{x} \)</td>
+                    <td>\( -csch{x}\coth{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \ln{cos{x}} \)</td>
+                    <td>\( - \tan{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \ln{\sin{x}} \)</td>
+                    <td>\( \cot{x} \)</td>
+                </tr>
+                <tr>
+                    <td>\( \ln{ \left( x + \sqrt{x^2 - 1} \right) } \)</td>
+                    <td>\( \dfrac{1}{\sqrt{x^2 - 1}} \)</td>
+                </tr>
+            </table>
+        </div>
+        <div id="expansions">
+            <div class="top"><a href="#">(Top)</a></div>
+            <h2>Expansions</h2>
+            <ul>
+                <li>\( \left( 1 - x \right)^n = 1 -\dfrac{nx}{1!} + \dfrac{n \left( n-1 \right)}{2!} - \cdots\) (Binomial Theorem \( x^2 < 1 \))</li>
+                <li>\( e^x = 1 + x + \dfrac{x^2}{2!} + \dfrac{x^3}{3!} + \cdots = \displaystyle \sum_{n=0}^{\infty} \dfrac{x^n}{n!} \)</li>
+                <li>\( \ln{\left( 1+x \right)} = x - \dfrac{x^2}{2} + \dfrac{x^3}{3} - \cdots = \displaystyle \sum_{n=1}^\infty {\left( -1 \right)}^{n+1} \dfrac{x^n}{n}  \)</li>
+                <li>\( \sin{\theta} = \theta - \dfrac{\theta^3}{3!} + \dfrac{\theta^5}{5!} - \cdots = \displaystyle \sum_{n=1}^\infty {\left( -1 \right)}^{n+1} \dfrac{\theta^{2n - 1}}{\left( 2n - 1 \right)!} \)</li>
+                <li>\( \cos{\theta} = 1 - \dfrac{\theta^2}{2!} + \dfrac{\theta^4}{4!} - \cdots = \displaystyle \sum_{n=0}^\infty {\left( -1 \right)}^{n} \dfrac{\theta^{2n}}{\left( 2n \right)!} \)</li>
+                <li>\( \tan{\theta} = \theta - \dfrac{\theta^3}{3!} + \dfrac{2\theta^5}{15!} + \dfrac{17\theta^7}{315!} + \cdots \)</li>       
+            </ul>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
