@@ -7,7 +7,9 @@ body {
 div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 h1,h2,th {
@@ -17,6 +19,7 @@ h1,h2,th {
     font-style: normal;
     font-variation-settings: "slnt" 0;
     text-align: center;
+    left: 0;
 }
 
 
